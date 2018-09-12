@@ -118,7 +118,7 @@ HTTPClient.prototype.addMiddleware = function(middleware){
     };
 
     // Instance a new JSDB
-    this.db = new jsldb("HTTPRequest");
+    this.db = new JSDB("HTTPRequest");
  }
 
  // expose to global window object.

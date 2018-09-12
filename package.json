@@ -1,6 +1,6 @@
 {
   "name": "jsoffr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Request class which implements jsldb for cache layer. It supports GET, POST, PUT & DELETE methods.",
   "main": "dist/jsoffr.js",
   "scripts": {
