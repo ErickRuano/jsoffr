@@ -6,7 +6,7 @@
   } else {
     root.Jsoffr = factory(root.Jsldb);
   }
-}(this, function(jsldb) {
+}(this, function(JSDB) {
 var HTTPClient = function(){
     this.middlewares = [];
 };
@@ -118,7 +118,7 @@ HTTPClient.prototype.addMiddleware = function(middleware){
     };
 
     // Instance a new JSDB
-    this.db = new JSDB("HTTPRequest");
+    this.db = new jsldb("HTTPRequest");
  }
 
  // expose to global window object.
